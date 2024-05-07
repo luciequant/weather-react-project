@@ -1,0 +1,46 @@
+.Weather {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background: pink;
+  padding: 16px;
+  border-radius: 10px;
+}
+.Weather .btn {
+  background: rgb(232, 102, 124);
+  color: white;
+}
+.Weather h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px;
+  line-height: 1;
+}
+
+.Weather ul {
+  margin: 20px;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2;
+  list-style: none;
+}
+.Weather img {
+  width: 90px;
+  display: inline-block;
+}
+.Weather .temeperature {
+  font-size: 60px;
+  font-weight: 700;
+}
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  line-height: 1;
+  top: -28px;
+}

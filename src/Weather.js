@@ -15,11 +15,7 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary w-100"
-            />
+            <input type="submit" value="Search" className="btn w-100" />
           </div>
         </div>
       </form>
@@ -34,7 +30,8 @@ export default function Weather() {
             src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
             alt="sun"
           ></img>
-          20 °C
+          <span className="temeperature">20</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
