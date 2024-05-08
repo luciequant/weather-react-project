@@ -28,17 +28,21 @@
   line-height: 2;
   list-style: none;
 }
-.Weather canvas {
-  width: 90px;
-  display: inline-block;
-}
-.Weather .temeperature {
+.Weather .temperature {
   font-size: 60px;
   font-weight: 700;
+  line-height: 64px;
+  margin-left: 5px;
+  margin-left: 10px;
 }
+
+.Weather canvas {
+  margin: 5px auto;
+}
+
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   position: relative;
   line-height: 1;

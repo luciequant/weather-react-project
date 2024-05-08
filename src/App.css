@@ -1,5 +1,5 @@
 body {
-  background: rgb(231, 103, 124);
+  background: rgb(255, 202, 211);
 }
 .App {
   max-width: 600px;
@@ -12,6 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .App a {
-  color: pink;
+  color: rgb(233, 105, 126);
   text-decoration: none;
 }
