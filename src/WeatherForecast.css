@@ -2,6 +2,10 @@
   text-align: center;
   margin-top: 10px;
 }
-.min {
+.WeatherForecast-temperature-max {
+  margin-left: 5px;
+}
+.WeatherForecast-temperature-min {
   opacity: 0.6;
+  margin-left: 5px;
 }
