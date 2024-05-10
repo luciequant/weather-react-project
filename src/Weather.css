@@ -2,20 +2,20 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
-  background: pink;
+  background-color: rgba(172, 139, 147, 0.7);
   padding: 16px;
-  border: 1px solid rgb(232, 102, 124);
+  border: 1px solid rgb(103, 96, 96);
   border-radius: 10px;
 }
 .Weather .btn {
-  background: rgb(232, 102, 124);
+  background: #eeb4a4;
   color: white;
 }
 .Weather h1 {
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 700;
-  margin: 20px 0;
   line-height: 1;
+  margin-top: 30px;
 }
 
 .Weather ul {
@@ -31,13 +31,15 @@
   list-style: none;
 }
 .Weather .temperature {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 64px;
   margin-left: 5px;
   margin-left: 10px;
 }
-
+.Weather .info {
+  margin: 20px;
+}
 .Weather canvas {
   margin: 5px auto;
 }
@@ -48,5 +50,5 @@
   font-weight: 500;
   position: relative;
   line-height: 1;
-  top: -28px;
+  top: -34px;
 }
