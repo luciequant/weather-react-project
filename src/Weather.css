@@ -52,3 +52,17 @@
   line-height: 1;
   top: -34px;
 }
+@media (max-width: 500px) {
+  .Weather canvas {
+    width: 50px;
+  }
+  .Weather .temperature {
+    font-size: 56px;
+  }
+  .Weather .unit {
+    font-size: 16px;
+    display: flex;
+    left: 72px;
+    top: -58px;
+  }
+}
